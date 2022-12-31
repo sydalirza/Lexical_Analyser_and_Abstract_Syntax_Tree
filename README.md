@@ -21,7 +21,9 @@ The lexical_analyzer class represents a lexical analyzer that can tokenize a str
 # Method Definitions
 
 The lexical_analyzer class has two methods:
+
 •	tokenize: This method uses a regular expression to split the input string into tokens and stores the resulting list of tokens in the tokenized attribute.
+
 •	type_of_token: This method iterates over the list of tokens in the tokenized attribute and prints the type of each token.
 
 # Main Function
