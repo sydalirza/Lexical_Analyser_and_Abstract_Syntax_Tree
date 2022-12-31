@@ -1,4 +1,4 @@
-# Lexical_Analyser_and_Abstract_Syntax_Tree
+# Lexical Analyser and Abstract Syntax Tree
 # Imported Modules
 
 The code imports the following modules:
