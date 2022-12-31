@@ -7,7 +7,7 @@ The code imports the following modules:
 3.	ast: The ast (Abstract Syntax Tree) module provides functions for parsing and manipulating Python code in the form of abstract syntax trees.
 4.	pprint: The pprint (Pretty Print) module provides functions for pretty-printing data structures in Python.
 
-#Class Definition
+# Class Definition
 
 The lexical_analyzer class represents a lexical analyzer that can tokenize a string of code and classify the tokens. It has the following attributes:
 1.	expression: The input string to be tokenized.
@@ -18,13 +18,13 @@ The lexical_analyzer class represents a lexical analyzer that can tokenize a str
 6.	sp_characters: A list of characters that represent special characters (i.e., & and %).
 7.	puncuators: A list of characters that represent punctuators (i.e., ;, :, ,, (, ), {, }, [, and ]).
 
-#Method Definitions
+# Method Definitions
 
 The lexical_analyzer class has two methods:
 •	tokenize: This method uses a regular expression to split the input string into tokens and stores the resulting list of tokens in the tokenized attribute.
 •	type_of_token: This method iterates over the list of tokens in the tokenized attribute and prints the type of each token.
 
-#Main Function
+# Main Function
 
 •	In the main function, the user is prompted to enter an expression, and the input is stored in the input_string variable. An instance of the lexical_analyzer class, obj1, is created with the input_string as its argument.
 •	The tokenize method of obj1 is then called to tokenize the input string, and the type_of_token method is called to classify the tokens.
