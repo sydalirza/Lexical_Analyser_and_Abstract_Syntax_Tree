@@ -29,5 +29,7 @@ The lexical_analyzer class has two methods:
 # Main Function
 
 •	In the main function, the user is prompted to enter an expression, and the input is stored in the input_string variable. An instance of the lexical_analyzer class, obj1, is created with the input_string as its argument.
+
 •	The tokenize method of obj1 is then called to tokenize the input string, and the type_of_token method is called to classify the tokens.
+
 •	Next, the ast.parse function is used to parse the input_string into an abstract syntax tree (AST). The AST is then pretty-printed using the pprint function and printed using the ast.dump function. Finally, the compile and exec functions are used to execute the code represented by the AST.
